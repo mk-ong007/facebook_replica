@@ -1,0 +1,65 @@
+body {
+	background-color: #f0f2f5;
+	color: #1c1e21;
+}
+
+#set1{
+	padding-bottom: 112px;
+    padding-top: 120px;
+	position: fixed;
+	padding-left: 60px;
+	margin: 0 40px;
+	width: auto;
+}
+
+ @media screen and (max-width: 480px) {
+ #set1,#set2{
+	padding-bottom: 0px;
+    padding-top: 0px;
+	position: fixed;
+	padding-left: 0px;
+	margin: 0 0px;
+}	
+
+}
+
+#set2{
+	padding-bottom: 112px;
+    padding-top: 100px;
+	position: fixed;
+	padding-left: 60px;
+	margin: 0 300px;
+	width: auto;
+}
+
+#loginCard{
+	background-color: #fff;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+	box-sizing: border-box;
+}
+
+#searchCard{
+	background-color: #fff;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+	box-sizing: border-box;
+}
+
+#header{
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+	box-sizing: border-box;
+}
+
+#loginEmailMobile, #loginPassword {
+	font-size: 17px;
+	padding: 14px 16px;
+	}
+
